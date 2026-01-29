@@ -8,8 +8,6 @@ def caching_fibonacci():
         return cache[n]
     return fibonacci
 
-
-
 fibonacci = caching_fibonacci()
 print(fibonacci(10))
 print(fibonacci(15))

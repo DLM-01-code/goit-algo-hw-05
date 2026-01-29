@@ -46,7 +46,6 @@ def show_all(contacts):
         return "No contacts available."
     return "\n".join(f"{name}: {phone}" for name, phone in contacts.items())
 
-
 def main():
     contacts = {}
     print("Welcome to the assistant bot!")
@@ -70,7 +69,6 @@ def main():
             print(show_all(contacts))
         else:
             print("Invalid command.")
-
 
 if __name__ == "__main__":
     main()
